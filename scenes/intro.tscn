@@ -524,11 +524,11 @@ metadata/_edit_lock_ = true
 
 [node name="Label" type="Label" parent="cameraRig/Control"]
 layout_mode = 0
-offset_left = 461.0
-offset_top = 92.0
-offset_right = 716.0
-offset_bottom = 210.0
-theme_override_font_sizes/font_size = 86
+offset_left = 114.0
+offset_top = 37.0
+offset_right = 233.0
+offset_bottom = 92.0
+theme_override_font_sizes/font_size = 40
 text = "LABEL"
 
 [node name="WorldEnvironment" type="WorldEnvironment" parent="."]

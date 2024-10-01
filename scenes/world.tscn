@@ -1,4 +1,4 @@
-[gd_scene load_steps=60 format=4 uid="uid://30mho7a5himf"]
+[gd_scene load_steps=61 format=4 uid="uid://30mho7a5himf"]
 
 [ext_resource type="Script" path="res://addons/qodot/src/nodes/qodot_map.gd" id="1_irkao"]
 [ext_resource type="Resource" uid="uid://c36hv0o6g0udo" path="res://addons/qodot/game_definitions/fgd/qodot_fgd.tres" id="2_7esqh"]
@@ -14,6 +14,7 @@
 [ext_resource type="Texture2D" uid="uid://6eodg5lb4yim" path="res://textures/256x256/Dirt/Dirt_20-256x256.png" id="12_03840"]
 [ext_resource type="PackedScene" uid="uid://blxpwq5nweha2" path="res://scenes/player.tscn" id="13_logry"]
 [ext_resource type="Shader" path="res://shaders/stars.gdshader" id="14_nab33"]
+[ext_resource type="PackedScene" uid="uid://bdvdigr5chxc0" path="res://scenes/male_formal_suit.tscn" id="15_1mf4b"]
 
 [sub_resource type="ShaderMaterial" id="ShaderMaterial_agf7j"]
 shader = ExtResource("14_nab33")
@@ -397,3 +398,6 @@ transform = Transform3D(1, 0, 0, 0, 0.0540789, 0.998537, 0, -0.998537, 0.0540789
 light_color = Color(1.01075e-06, 0.395941, 0.544327, 1)
 light_energy = 0.912
 sky_mode = 1
+
+[node name="maleFormalSuit" parent="." instance=ExtResource("15_1mf4b")]
+transform = Transform3D(-0.383432, 0, -0.328641, 0, 0.505, 0, 0.328641, 0, -0.383432, -9.54048, -0.787065, 3.31465)
